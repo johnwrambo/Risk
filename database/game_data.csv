@@ -1,0 +1,43 @@
+territory,name,continent,value,x_cor,y_cor,connections,color,troops,is_occupied,is_neutral
+alaska,Alaska,north america,5,-451,218,"northwest territory, alberta, kamchatka",0,0,0,0
+northwest territory,Northwest Territory,north america,5,-397,211,"alaska, alberta, ontario, greenland",0,0,0,0
+greenland,Greenland,north america,5,-153,207,"northwest territory, ontario, quebec, iceland",0,0,0,0
+alberta,Alberta,north america,5,-349,168,"alaska, northwest territory, ontario, western united states",0,0,0,0
+ontario,Ontario,north america,5,-307,158,"northwest territory, alberta, western united states, eastern united states, quebec, greenland",0,0,0,0
+quebec,Quebec,north america,5,-208,153,"ontario, eastern united states, greenland",0,0,0,0
+western united states,Western United States,north america,5,-363,93,"alberta, ontario, eastern united states, central america",0,0,0,0
+eastern united states,Eastern United States,north america,5,-282,65,"western united states, ontario, quebec, central america",0,0,0,0
+central america,Central America,north america,5,-345,3,"western united states, eastern united states, venezuela",0,0,0,0
+venezuela,Venezuela,south america,2,-261,-31,"central america, peru, brazil",0,0,0,0
+peru,Peru,south america,2,-265,-112,"venezuela, brazil, argentina",0,0,0,0
+brazil,Brazil,south america,2,-204,-87,"venezuela, peru, argentina, north africa",0,0,0,0
+argentina,Argentina,south america,2,-247,-158,"peru, brazil",0,0,0,0
+iceland,Iceland,europe,5,-74,180,"greenland, great britain, scandinavia",0,0,0,0
+scandinavia,Scandinavia,europe,5,11,181,"iceland, great britain, northern europe, ukraine",0,0,0,0
+ukraine,Ukraine,europe,5,115,159,"scandinavia, northern europe, southern europe, ural, afghanistan, middle east",0,0,0,0
+great britain,Great Britain,europe,5,-94,106,"iceland, scandinavia, northern europe, western europe",0,0,0,0
+northern europe,Northern Europe,europe,5,1,95,"great britain, scandinavia, ukraine, southern europe, western europe",0,0,0,0
+western europe,Western Europe,europe,5,-68,34,"great britain, northern europe, southern europe, north africa",0,0,0,0
+southern europe,Southern Europe,europe,5,11,30,"western europe, northern europe, ukraine, middle east, egypt, north africa",0,0,0,0
+north africa,North Africa,africa,3,-42,-52,"brazil, western europe, southern europe, egypt, east africa, congo",0,0,0,0
+egypt,Egypt,africa,3,41,-49,"north africa, southern europe, middle east, east africa",0,0,0,0
+east africa,East Africa,africa,3,104,-143,"egypt, north africa, congo, south africa, madagascar",0,0,0,0
+congo,Congo,africa,3,45,-150,"north africa, east africa, south africa",0,0,0,0
+south africa,South Africa,africa,3,50,-228,"congo, east africa, madagascar",0,0,0,0
+madagascar,Madagascar,africa,3,142,-229,"east africa, south africa",0,0,0,0
+ural,Ural,asia,7,201,131,"ukraine, siberia, china, afghanistan",0,0,0,0
+siberia,Siberia,asia,7,237,210,"ural, yakutsk, irkutsk, mongolia, china",0,0,0,0
+yakutsk,Yakutsk,asia,7,335,215,"siberia, kamchatka, irkutsk",0,0,0,0
+kamchatka,Kamchatka,asia,7,413,210,"yakutsk, alaska, japan, mongolia",0,0,0,0
+irkutsk,Irkutsk,asia,7,318,150,"siberia, yakutsk, kamchatka, mongolia",0,0,0,0
+mongolia,Mongolia,asia,7,347,98,"irkutsk, siberia, china, japan, kamchatka",0,0,0,0
+japan,Japan,asia,7,435,80,"kamchatka, mongolia",0,0,0,0
+afghanistan,Afghanistan,asia,7,181,81,"ukraine, ural, china, india, middle east",0,0,0,0
+china,China,asia,7,285,43,"afghanistan, ural, siberia, mongolia, siam, india",0,0,0,0
+middle east,Middle East,asia,7,129,-47,"ukraine, southern europe, egypt, east africa, india, afghanistan",0,0,0,0
+india,India,asia,7,226,-8,"middle east, afghanistan, china, siam",0,0,0,0
+siam,Siam,asia,7,334,-52,"india, china, indonesia",0,0,0,0
+indonesia,Indonesia,australia,2,339,-155,"siam, new guinea, western australia",0,0,0,0
+new guinea,New Guinea,australia,2,424,-123,"indonesia, western australia, eastern australia",0,0,0,0
+western australia,Western Australia,australia,2,377,-224,"indonesia, new guinea, eastern australia",0,0,0,0
+eastern australia,Eastern Australia,australia,2,467,-254,"western australia, new guinea",0,0,0,0
