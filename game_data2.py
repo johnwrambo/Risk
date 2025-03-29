@@ -313,9 +313,6 @@ class Player:
             print(f"Now occupied by: {territory.occupied_by}")
 
 
-
-
-
     def create_army(self):
         player_army = Army(self)
         return player_army

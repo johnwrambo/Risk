@@ -1,43 +1,43 @@
-territory,name,continent,continent_color,continent_value,x_cor,y_cor,connections,color,troops,occupied_by,is_neutral,card_suit
-afghanistan,Afghanistan,asia,green,7,181,81,"russia, ural, china, india, middle east",0,0,0,0,calvary
-alaska,Alaska,north_america,yellow,5,-451,218,"northwest territory, alberta, kamchatka",0,0,0,0,infantry
-alberta,Alberta,north_america,yellow,5,-349,168,"alaska, northwest territory, ontario, western united states",0,0,0,0,calvary
-argentina,Argentina,south_america,orange,2,-247,-158,"peru, brazil",0,0,0,0,infantry
-brazil,Brazil,south_america,orange,2,-204,-87,"venezuela, peru, argentina, north africa",0,0,0,0,artillery
-central america,Central America,north_america,yellow,5,-345,3,"western united states, eastern united states, venezuela",0,0,0,0,artillery
-china,China,asia,green,7,285,43,"afghanistan, ural, siberia, mongolia, siam, india",0,0,0,0,infantry
-congo,Congo,africa,red,3,45,-150,"north africa, east africa, south africa",0,0,0,0,infantry
-east africa,East Africa,africa,red,3,104,-143,"egypt, north africa, congo, south africa, madagascar",0,0,0,0,infantry
-eastern australia,Eastern Australia,australia,purple,2,467,-254,"western australia, new guinea",0,0,0,0,artillery
-eastern united states,Eastern United States,north_america,yellow,5,-282,65,"western united states, ontario, quebec, central america",0,0,0,0,artillery
-egypt,Egypt,africa,red,3,41,-49,"north africa, southern europe, middle east, east africa",0,0,0,0,infantry
-great britain,Great Britain,europe,blue,5,-94,106,"iceland, scandinavia, northern europe, western europe",0,0,0,0,artillery
-greenland,Greenland,north_america,yellow,5,-153,207,"northwest territory, ontario, quebec, iceland",0,0,0,0,calvary
-iceland,Iceland,europe,blue,5,-74,180,"greenland, great britain, scandinavia",0,0,0,0,infantry
-india,India,asia,green,7,226,-8,"middle east, afghanistan, china, siam",0,0,0,0,calvary
-indonesia,Indonesia,australia,purple,2,339,-155,"siam, new guinea, western australia",0,0,0,0,artillery
-irkutsk,Irkutsk,asia,green,7,318,150,"siberia, yakutsk, kamchatka, mongolia",0,0,0,0,calvary
-japan,Japan,asia,green,7,435,80,"kamchatka, mongolia",0,0,0,0,artillery
-kamchatka,Kamchatka,asia,green,7,413,210,"yakutsk, alaska, japan, mongolia",0,0,0,0,infantry
-madagascar,Madagascar,africa,red,3,142,-229,"east africa, south africa",0,0,0,0,calvary
-middle east,Middle East,asia,green,7,129,-47,"russia, southern europe, egypt, east africa, india, afghanistan",0,0,0,0,infantry
-mongolia,Mongolia,asia,green,7,347,98,"irkutsk, siberia, china, japan, kamchatka",0,0,0,0,infantry
-new guinea,New Guinea,australia,purple,2,424,-123,"indonesia, western australia, eastern australia",0,0,0,0,infantry
-north africa,North Africa,africa,red,3,-42,-52,"brazil, western europe, southern europe, egypt, east africa, congo",0,0,0,0,calvary
-northern europe,Northern Europe,europe,blue,5,1,95,"great britain, scandinavia, russia, southern europe, western europe",0,0,0,0,artillery
-northwest territory,Northwest Territory,north_america,yellow,5,-397,211,"alaska, alberta, ontario, greenland",0,0,0,0,artillery
-ontario,Ontario,north_america,yellow,5,-307,158,"northwest territory, alberta, western united states, eastern united states, quebec, greenland",0,0,0,0,calvary
-peru,Peru,south_america,orange,2,-265,-112,"venezuela, brazil, argentina",0,0,0,0,infantry
-quebec,Quebec,north_america,yellow,5,-208,153,"ontario, eastern united states, greenland",0,0,0,0,calvary
-russia,Russia,europe,blue,5,115,159,"scandinavia, northern europe, southern europe, ural, afghanistan, middle east",0,0,0,0,calvary
-scandinavia,Scandinavia,europe,blue,5,11,181,"iceland, great britain, northern europe, russia",0,0,0,0,calvary
-siam,Siam,asia,green,7,334,-52,"india, china, indonesia",0,0,0,0,infantry
-siberia,Siberia,asia,green,7,237,210,"ural, yakutsk, irkutsk, mongolia, china",0,0,0,0,calvary
-south africa,South Africa,africa,red,3,50,-228,"congo, east africa, madagascar",0,0,0,0,artillery
-southern europe,Southern Europe,europe,blue,5,11,30,"western europe, northern europe, russia, middle east, egypt, north africa",0,0,0,0,artillery
-ural,Ural,asia,green,7,201,131,"russia, siberia, china, afghanistan",0,0,0,0,calvary
-venezuela,Venezuela,south_america,orange,2,-261,-31,"central america, peru, brazil",0,0,0,0,infantry
-western australia,Western Australia,australia,purple,2,377,-224,"indonesia, new guinea, eastern australia",0,0,0,0,artillery
-western europe,Western Europe,europe,blue,5,-68,34,"great britain, northern europe, southern europe, north africa",0,0,0,0,artillery
-western united states,Western United States,north_america,yellow,5,-363,93,"alberta, ontario, eastern united states, central america",0,0,0,0,artillery
-yakutsk,Yakutsk,asia,green,7,335,215,"siberia, kamchatka, irkutsk",0,0,0,0,calvary
+territory,name,continent,continent_color,continent_value,x_cor,y_cor,connections,occupied_by,card_suit
+afghanistan,Afghanistan,asia,green,7,181,81,"russia, ural, china, india, middle east",,calvary
+alaska,Alaska,north_america,yellow,5,-451,218,"northwest territory, alberta, kamchatka",,infantry
+alberta,Alberta,north_america,yellow,5,-349,168,"alaska, northwest territory, ontario, western united states",,calvary
+argentina,Argentina,south_america,orange,2,-247,-158,"peru, brazil",,infantry
+brazil,Brazil,south_america,orange,2,-204,-87,"venezuela, peru, argentina, north africa",,artillery
+central america,Central America,north_america,yellow,5,-345,3,"western united states, eastern united states, venezuela",,artillery
+china,China,asia,green,7,285,43,"afghanistan, ural, siberia, mongolia, siam, india",,infantry
+congo,Congo,africa,red,3,45,-150,"north africa, east africa, south africa",,infantry
+east africa,East Africa,africa,red,3,104,-143,"egypt, north africa, congo, south africa, madagascar",,infantry
+eastern australia,Eastern Australia,australia,purple,2,467,-254,"western australia, new guinea",,artillery
+eastern united states,Eastern United States,north_america,yellow,5,-282,65,"western united states, ontario, quebec, central america",,artillery
+egypt,Egypt,africa,red,3,41,-49,"north africa, southern europe, middle east, east africa",,infantry
+great britain,Great Britain,europe,blue,5,-94,106,"iceland, scandinavia, northern europe, western europe",,artillery
+greenland,Greenland,north_america,yellow,5,-153,207,"northwest territory, ontario, quebec, iceland",,calvary
+iceland,Iceland,europe,blue,5,-74,180,"greenland, great britain, scandinavia",,infantry
+india,India,asia,green,7,226,-8,"middle east, afghanistan, china, siam",,calvary
+indonesia,Indonesia,australia,purple,2,339,-155,"siam, new guinea, western australia",,artillery
+irkutsk,Irkutsk,asia,green,7,318,150,"siberia, yakutsk, kamchatka, mongolia",,calvary
+japan,Japan,asia,green,7,435,80,"kamchatka, mongolia",,artillery
+kamchatka,Kamchatka,asia,green,7,413,210,"yakutsk, alaska, japan, mongolia",,infantry
+madagascar,Madagascar,africa,red,3,142,-229,"east africa, south africa",,calvary
+middle east,Middle East,asia,green,7,129,-47,"russia, southern europe, egypt, east africa, india, afghanistan",,infantry
+mongolia,Mongolia,asia,green,7,347,98,"irkutsk, siberia, china, japan, kamchatka",,infantry
+new guinea,New Guinea,australia,purple,2,424,-123,"indonesia, western australia, eastern australia",,infantry
+north africa,North Africa,africa,red,3,-42,-52,"brazil, western europe, southern europe, egypt, east africa, congo",,calvary
+northern europe,Northern Europe,europe,blue,5,1,95,"great britain, scandinavia, russia, southern europe, western europe",,artillery
+northwest territory,Northwest Territory,north_america,yellow,5,-397,211,"alaska, alberta, ontario, greenland",,artillery
+ontario,Ontario,north_america,yellow,5,-307,158,"northwest territory, alberta, western united states, eastern united states, quebec, greenland",,calvary
+peru,Peru,south_america,orange,2,-265,-112,"venezuela, brazil, argentina",,infantry
+quebec,Quebec,north_america,yellow,5,-208,153,"ontario, eastern united states, greenland",,calvary
+russia,Russia,europe,blue,5,115,159,"scandinavia, northern europe, southern europe, ural, afghanistan, middle east",,calvary
+scandinavia,Scandinavia,europe,blue,5,11,181,"iceland, great britain, northern europe, russia",,calvary
+siam,Siam,asia,green,7,334,-52,"india, china, indonesia",,infantry
+siberia,Siberia,asia,green,7,237,210,"ural, yakutsk, irkutsk, mongolia, china",,calvary
+south africa,South Africa,africa,red,3,50,-228,"congo, east africa, madagascar",,artillery
+southern europe,Southern Europe,europe,blue,5,11,30,"western europe, northern europe, russia, middle east, egypt, north africa",,artillery
+ural,Ural,asia,green,7,201,131,"russia, siberia, china, afghanistan",,calvary
+venezuela,Venezuela,south_america,orange,2,-261,-31,"central america, peru, brazil",,infantry
+western australia,Western Australia,australia,purple,2,377,-224,"indonesia, new guinea, eastern australia",,artillery
+western europe,Western Europe,europe,blue,5,-68,34,"great britain, northern europe, southern europe, north africa",,artillery
+western united states,Western United States,north_america,yellow,5,-363,93,"alberta, ontario, eastern united states, central america",,artillery
+yakutsk,Yakutsk,asia,green,7,335,215,"siberia, kamchatka, irkutsk",,calvary

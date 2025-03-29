@@ -1,0 +1,22 @@
+
+Static object do not have parameters that change
+
+
+Players - (Dynamic->Player data changes such as income and territories owned)-> Initiates Actions
+-- Container - Troops/Armies (fluid)
+
+-- Environment Determines outcomes
+Dice - Die (Static) -> Determines outcomes
+CardDeck - card (static)
+Rule Book - (static)
+
+
+Board (static) - territories (static)
+
+Game Engine to manage turns, log events, validate rules, and save game state
+
+Dice -> die [attacker_roll, defender_roll]
+Map -> territories [holds values and logic]
+Player -> army    Actions [redeem_cards,receive_troops,place_troops,attack,move_troops,draw_card]
+CardDeck -> card [shuffle,split,deal]
+GameEngine -> [creates all objects and manages gameplay]
